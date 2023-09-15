@@ -1,1 +1,52 @@
-/* Add custom css styles here */
+.HeaderBackground {
+    height: 400px; /* Set the fixed height for the header */
+    background-image: url('https://i.imgur.com/i8tfYZH.jpg'); /* Coffee-biscuit image */
+    background-size: cover;  /* Image covers entire header */
+    background-repeat: no-repeat; /* Single image dispalyed */
+    background-position: center; /* Center the background image horizontally and vertically */
+/* Banner text format */
+    text-align: center; /* Center-align the content within the header */
+    display: flex; /* Use flexbox to vertically center the title text */
+    justify-content: center; /* Center horizontally using flexbox */
+    align-items: center; /* Center vertically using flexbox */
+}
+
+/* Banner block & text color */
+.Square-Block {
+  position: relative;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, .75); /* transparent black square */
+  padding: 50px;
+  height: 200px;
+}
+
+#aboutus {
+  padding: 3em;
+  background-color: #e6e3e39f;
+  height: auto; 
+}
+
+/* Footer */
+#contactus {
+    padding: 3em;
+    background-color: #0F98DC;
+}
+
+/* Formatting layout */
+body {
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+#cookingimg {
+    height: 175px;
+}
+
+#cookie-boarder {
+    padding-bottom: 3em; 
+}
+
+.image-outline {
+    border-radius: 50%;
+}
+
